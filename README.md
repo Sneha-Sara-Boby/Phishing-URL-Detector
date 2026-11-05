@@ -30,12 +30,14 @@ The program assigns a suspiciousness score based on different URL indicators and
 
 The detector uses five rule-based checks:
 
-Detection Rule	                   Score
-IP address instead of domain     	 +3
-Suspicious keywords	               +1
-Excessive subdomains	             +2
-URL length above 75 characters	   +1
-Presence of @ symbol	             +2
+| Detection Rule | Score |
+|---|---:|
+| IP address instead of domain | +3 |
+| Suspicious keywords | +1 |
+| Excessive subdomains | +2 |
+| URL length above 75 characters | +1 |
+| Presence of @ symbol | +2 |
+
 
 A URL is flagged as suspicious when its total score is 3 or higher.
 
